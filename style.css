@@ -1,0 +1,38 @@
+*{
+  -webkit-tap-highlight-color: transparent;
+}
+
+#container{
+  box-shadow:  -3px 3px 20px rgba(0,0,0,0.3),
+               3px -3px 20px rgba(0,0,0,0.3);
+}
+
+li{
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  background: rgba(182,188,194,0.945);
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.check{
+  position: absolute;
+  color: #009600;
+  font-size: 25px;
+  right: 40px;
+}
+
+.trash{
+  position: absolute;
+  color: #ff0000;
+  font-size: 25px;
+  right: 10px;
+}
+
+ .checked{
+  background: #90ee90;
+  text-decoration: line-through;
+  transition: all .3s;
+}
