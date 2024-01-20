@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list note</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <script src="https://unpkg.com/tailwindcss-cdn@3.3.4/tailwindcss.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </head>
+  <body class="bg-slate-200 text-slate-900 dark:bg-slate-800">
+    <div class="flex justify-center items-center min-h-screen flex-col">
+     <h2 class="uppercase text-3xl m-5 text-slate-700 dark:text-slate-200 font-bold">todo</h2>
+        <div id="container" class="w-[320px] p-5 h-[500px] bg-slate-300 dark:bg-slate-600 rounded-2xl overflow-y-auto">
+          <input type="text" class="w-full mt-2.5 h-[50px] rounded-[5px] p-4 hover:ring-4 duration-1000 outline-0 text-slate-700 font-medium" name="text" id="text" placeholder="type what you want todo..." />
+          <ul class="w-full mt-5">
+            <!-- CONTENT GOES HERE -->
+          </ul>
+        </div>
+    </div>
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
